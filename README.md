@@ -1,57 +1,61 @@
-#🌿 Mental Health Companion — AI Support for Emotions & Wellbeing
+# 🌿 **Mental Health Companion**  
+### **AI Support for Emotions & Wellbeing**
 
-Mental Health Companion is your gentle AI-powered confidant for emotional wellness. Built with Gradio, LangChain, and OpenAI, it offers warm, mood-aware support, affirmations, and helpful coping tips — all wrapped in a soft pink and haze green interface.
+**Mental Health Companion** is your gentle AI-powered confidant for emotional wellness. Built with Gradio, LangChain, and OpenAI, it offers warm, mood-aware support, affirmations, and helpful coping tips — all wrapped in a soft pink and haze green interface.
 
-##🌸☘️ Features
+---
 
-🧠 Emotion-aware support with friendly responses
+## 🌸 **Features**
 
-🌈 Mood-based interface with emoji feedback
+- 🧠 **Emotion-aware support with friendly responses**  
+- 🌈 **Mood-based interface with emoji feedback**  
+- 💬 **Empathetic conversation flow (different for good/bad moods)**  
+- 🎵 **Optional calming sounds for relaxation**  
+- 💖 **Affirmations and gentle check-ins**  
+- 🎨 **Aesthetically soft UI (pink & green theme)**  
+- ⚙️ **Built using CrewAI, LangChain, and Gradio**
 
-💬 Empathetic conversation flow (different for good/bad moods)
+---
 
-🎵 Optional calming sounds for relaxation
+## 🚀 **Live Demo**
 
-💖 Affirmations and gentle check-ins
+🔗 [**Try Mental Health Companion Here**](https://your-deployment-link.com)
 
-🎨 Aesthetically soft UI (pink & green theme)
+---
 
-⚙️ Built using CrewAI, LangChain, and Gradio
+## 📦 **How to Run Locally**
 
-##🚀 Live Demo
-
-🔗 Try Mental Health Companion Here
-
-
-##📦 How to Run
-
-
+```bash
 git clone https://github.com/your-username/mental-health-companion.git
 cd mental-health-companion
-
 pip install -r requirements.txt
-
 python app.py
 
+---
 
-##🧠 Tech Stack
+## 🧠 **Tech Stack**
 
-Python
+-Python
 
-Gradio
+-Gradio
 
-LangChain
+-LangChain
 
-OpenAI API
+-OpenAI API
 
-CrewAI
+-CrewAI
 
-##📄 License
+---
+
+## 📄 **License**
 
 MIT License
 
-##🙋‍♀️ Author
+---
+
+## 🙋‍♀️ **Author**
+
 Built with warmth and care by Humaira
-Let’s connect:
-🔗 LinkedIn
+
+🔗 LinkedIn Profile
 
