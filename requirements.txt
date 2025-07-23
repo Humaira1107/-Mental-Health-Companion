@@ -1,0 +1,6 @@
+gradio
+openai
+crewai==0.10.14
+python-dotenv
+langchain
+litellm==1.12.2
