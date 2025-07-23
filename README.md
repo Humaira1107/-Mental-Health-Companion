@@ -64,7 +64,7 @@ MIT License
 
 ## 🙋‍♀️ **Author**
 
-Built with warmth and care by Humaira
+Built with warmth and care🎀 by Humaira
 
 
 Let’s connect: [LinkedIn](https://www.linkedin.com/in/humairaghafoor)
