@@ -1,13 +1,40 @@
----
-title: 🌿Mental Health Companion
-colorFrom: soft pink
-colorTo: haze green
-sdk: gradio
-sdk_version: 5.0.1
-app_file: app.py
-pinned: false
-license: mit
-short_description: Gentle AI chatbot for emotional support and coping tips.
----
+🌿 Mental Health Companion — AI Support for Emotions & Wellbeing
+Mental Health Companion is your gentle AI-powered confidant for emotional wellness. Built with Gradio, LangChain, and OpenAI, it offers warm, mood-aware support, affirmations, and helpful coping tips — all wrapped in a soft pink and haze green interface.
 
-An example chatbot using [Gradio](https://gradio.app), [`huggingface_hub`](https://huggingface.co/docs/huggingface_hub/v0.22.2/en/index), and the [Hugging Face Inference API](https://huggingface.co/docs/api-inference/index).
+🌸☘️ Features
+🧠 Emotion-aware support with friendly responses
+🌈 Mood-based interface with emoji feedback
+💬 Empathetic conversation flow (different for good/bad moods)
+🎵 Optional calming sounds for relaxation
+💖 Affirmations and gentle check-ins
+🎨 Aesthetically soft UI (pink & green theme)
+⚙️ Built using CrewAI, LangChain, and Gradio
+
+🚀 Live Demo
+🔗 Try Mental Health Companion Here
+
+
+📦 How to Run
+
+1.Clone the repo:
+git clone https://github.com/your-username/mental-health-companion.git
+cd mental-health-companion
+
+2.Install requirements:
+pip install -r requirements.txt
+
+3.Run locally:
+python app.py
+🧠 Tech Stack
+Python
+Gradio
+LangChain
+OpenAI API
+CrewAI
+
+📄 License
+MIT License
+
+🙋‍♀️ Author
+Built with warmth and care by Humaira
+Let’s connect: LinkedIn | GitHub | Hugging Face
