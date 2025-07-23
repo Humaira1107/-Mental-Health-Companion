@@ -1,8 +1,7 @@
 ---
-title: Mental Health Companion
-emoji: 💬
-colorFrom: yellow
-colorTo: purple
+title: 🌿Mental Health Companion
+colorFrom: soft pink
+colorTo: haze green
 sdk: gradio
 sdk_version: 5.0.1
 app_file: app.py
