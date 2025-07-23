@@ -5,7 +5,7 @@
 
 ---
 
-## 🌸 **Features**
+## 🌸☘️ **Features**
 
 - 🧠 **Emotion-aware support with friendly responses**  
 - 🌈 **Mood-based interface with emoji feedback**  
@@ -23,13 +23,22 @@
 
 ---
 
-## 📦 **How to Run Locally**
+## 📦 **How to Run**
+
+1.Clone the repo:
 
 ```bash
 git clone https://github.com/your-username/mental-health-companion.git
 cd mental-health-companion
+```
+2.Install requirements:
+```bash
 pip install -r requirements.txt
+```
+3.Run locally:
+```bash
 python app.py
+```
 
 ---
 
@@ -57,5 +66,5 @@ MIT License
 
 Built with warmth and care by Humaira
 
-🔗 LinkedIn Profile
 
+Let’s connect: [LinkedIn](https://www.linkedin.com/in/humairaghafoor)
