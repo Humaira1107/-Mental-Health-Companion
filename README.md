@@ -51,7 +51,7 @@ CrewAI
 MIT License
 
 ##🙋‍♀️ Author
-
 Built with warmth and care by Humaira
+Let’s connect:
+🔗 LinkedIn
 
-Let’s connect: 
