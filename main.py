@@ -134,9 +134,7 @@ def process_message(user_input):
 
     result = crew.kickoff(inputs={"input": user_input})
     emoji = mood_to_emoji(user_input)
-    return f"{result}
-
-{emoji}"
+    return f"{result}{emoji}"
 
 custom_css = """
 body {
