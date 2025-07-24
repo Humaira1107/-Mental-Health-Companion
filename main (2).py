@@ -15,11 +15,7 @@ load_dotenv()
 # Setup logging
 logging.basicConfig(level=logging.INFO)
 
-OPENAI_API_KEY=sk-proj-....
-
 emotion_log = []
-
-os.environ["OPENAI_API_KEY"]
 
 # Define LLM
 llm = ChatOpenAI(
