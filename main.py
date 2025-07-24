@@ -182,4 +182,5 @@ with gr.Blocks(css=custom_css) as demo:
 
     btn.click(fn=wrapper, inputs=[inp, sound], outputs=out)
 
-demo.launch()(server_name="0.0.0.0", server_port=8080)
+demo.launch(server_name="0.0.0.0", server_port=8080)
+
