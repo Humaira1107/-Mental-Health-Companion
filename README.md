@@ -1,4 +1,4 @@
-# 🌿 **Mental Health Companion**  
+# 🌿 **Calmind**  
 ### **AI Support for Emotions & Wellbeing**
 
 **Mental Health Companion** is your gentle AI-powered confidant for emotional wellness. Built with Gradio, LangChain, and OpenAI, it offers warm, mood-aware support, affirmations, and helpful coping tips — all wrapped in a soft pink and haze green interface.
