@@ -7,7 +7,7 @@
 
 ## 🌸☘️ **Features**
 
-- 🧠 **Emotion-aware support with friendly responses**  
+- 🧠 **Emotion-aware support with friendly responses**
 - 🌈 **Mood-based interface with emoji feedback**  
 - 💬 **Empathetic conversation flow (different for good/bad moods)**  
 - 🎵 **Optional calming sounds for relaxation**  
@@ -25,17 +25,17 @@
 
 ## 📦 **How to Run**
 
-1.Clone the repo:
+### 1.Clone the repo:
 
 ```bash
 git clone https://github.com/your-username/mental-health-companion.git
 cd mental-health-companion
 ```
-2.Install requirements:
+### 2.Install requirements:
 ```bash
 pip install -r requirements.txt
 ```
-3.Run locally:
+### 3.Run locally:
 ```bash
 python app.py
 ```
