@@ -19,7 +19,7 @@
 
 ## 🚀 **Live Demo**
 
-🔗 [**🌿 Calmind**]([https://your-deployment-link.com](https://mental-health-companion-915b.onrender.com/))
+🔗 [**🌿 Calmind**]([https://mental-health-companion-915b.onrender.com/])
 
 ---
 
