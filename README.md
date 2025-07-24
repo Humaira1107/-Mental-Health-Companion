@@ -44,15 +44,15 @@ python app.py
 
 ## 🧠 **Tech Stack**
 
-**-** Python
+-Python
 
-**-** Gradio
+-Gradio
 
-**-** LangChain
+-LangChain
 
-**-** OpenAI API
+-OpenAI API
 
-**-** CrewAI
+-CrewAI
 
 ---
 
