@@ -25,17 +25,17 @@
 
 ## 📦 **How to Run**
 
-### 1.Clone the repo:
+#### 1.Clone the repo:
 
 ```bash
 git clone https://github.com/your-username/mental-health-companion.git
 cd mental-health-companion
 ```
-### 2.Install requirements:
+#### 2.Install requirements:
 ```bash
 pip install -r requirements.txt
 ```
-### 3.Run locally:
+#### 3.Run locally:
 ```bash
 python app.py
 ```
@@ -44,7 +44,7 @@ python app.py
 
 ## 🧠 **Tech Stack**
 
--Python
+** - **Python
 
 -Gradio
 
