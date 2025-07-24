@@ -157,8 +157,7 @@ button:hover {
 """
 
 with gr.Blocks(css=custom_css) as demo:
-    gr.Markdown("## 🌿 Mental Health Companion
-A gentle AI to support your emotional well-being.")
+    gr.Markdown("## 🌿 Calmind A gentle AI to support your emotional well-being.")
 
     inp = gr.Textbox(label="How are you feeling today?")
     sound = gr.Dropdown(
