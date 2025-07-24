@@ -3,4 +3,5 @@ openai
 crewai
 python-dotenv
 langchain
+langchain_openai
 litellm
