@@ -186,15 +186,17 @@ sound = gr.Dropdown(
         elem_id="sound-dropdown"
     )
     def wrapper(user_input, sound_choice):
-        response = process_message(user_input)
-        if sound_choice != "None":
-            sound_file = {
-                "Rain": "rain.mp3",
-                "Waves": "waves.mp3",
-                "Birds": "birds.mp3"
-            }.get(sound_choice)
-            audio_component.value = sound_file
-        return response
+    response = process_message(user_input)
+    if sound_choice != "None":
+        sound_file = {
+            "Rain Sounds": "static/rain.mp3",
+            "Ocean Waves": "static/waves.mp3",
+            "Cat Purring": "static/cat.mp3",
+            "Violin Music": "static/violin.mp3",
+            "Nature Sounds": "static/nature.mp3"
+        }.get(sound_choice)
+        audio_component.value = sound_file
+    return response
 
     btn = gr.Button("Send")
     audio_component = gr.Audio(label="Calming Sound", autoplay=True)
