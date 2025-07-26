@@ -174,7 +174,7 @@ textarea, .wrap, .output_class {
 """
 
 with gr.Blocks(css=custom_css) as demo:
-    gr.Markdown("## 🌿 Calmind A gentle AI to support your emotional well-being.")
+    gr.Markdown("## 🌿 Calmind — Your serene AI sanctuary for emotional clarity & self-love.")
 
     inp = gr.Textbox(label="How are you feeling today?")
     
