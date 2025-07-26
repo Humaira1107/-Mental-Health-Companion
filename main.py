@@ -168,12 +168,13 @@ with gr.Blocks(css=custom_css) as demo:
     gr.Markdown("## 🌿 Calmind A gentle AI to support your emotional well-being.")
 
     inp = gr.Textbox(label="How are you feeling today?")
-    sound = gr.Dropdown(
+    
+    out = gr.Textbox(label="AI Companion Response", lines=4)
+    
+sound = gr.Dropdown(
         choices=["Nature Sounds", "Rain Sounds", "Ocean Waves", "Cat Purring", "Violin Music"],
         label="Play a calming sound?"
     )
-    out = gr.Textbox(label="AI Companion Response", lines=4)
-
     def wrapper(user_input, sound_choice):
         response = process_message(user_input)
         if sound_choice != "None":
