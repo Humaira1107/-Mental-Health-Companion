@@ -139,21 +139,29 @@ def process_message(user_input):
 custom_css = """
 body {
     background-color: #fccaca;
-}
+    }
 textarea, input, select, button {
     border-radius: 12px;
-}
+    }
 .gradio-container {
-    background-color: #f9f4f8;
-    color: #253d1d;
+    background-color: #fcedf9;
+    color: #253d1d; /* text */
 }
 button {
-    background-color: #c0e6a5 !important;
-    color: #253d1d !important;
+    background-color: #c8d9a0 !important; /* haze green */
+    color: #253d1d !important; /* text */
 }
 button:hover {
-    background-color: #fadede !important;
+    background-color: #fadede !important; /* pink */
 }
+/* Style input and output box */
+textarea, .wrap, .output_class {
+  background-color: #ffffe4 !important; /* off white bg */
+  color: #253d1d !important; /* Text */
+  border-radius: 12px;
+  border: 1px solid #f5f2d0;
+}
+
 """
 
 with gr.Blocks(css=custom_css) as demo:
@@ -161,7 +169,7 @@ with gr.Blocks(css=custom_css) as demo:
 
     inp = gr.Textbox(label="How are you feeling today?")
     sound = gr.Dropdown(
-        choices=["None", "Rain", "Waves", "Birds"],
+        choices=["Nature Sounds", "Rain Sounds", "Ocean Waves", "Cat Purring", "Violin Music"],
         label="Play a calming sound?"
     )
     out = gr.Textbox(label="AI Companion Response", lines=4)
