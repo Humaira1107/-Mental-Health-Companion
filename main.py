@@ -161,6 +161,15 @@ textarea, .wrap, .output_class {
   border-radius: 12px;
   border: 1px solid #f5f2d0;
 }
+/* Style the sound dropdown */
+#sound-dropdown select {
+  background-color: #ffffe4 !important; /* soft pink */
+  color: #253d1d !important; /* text */
+  border-radius: 12px;
+  border: 1px solid #f5f2d0;
+  padding: 8px;
+  font-size: 16px;
+}
 
 """
 
@@ -172,8 +181,9 @@ with gr.Blocks(css=custom_css) as demo:
     out = gr.Textbox(label="AI Companion Response", lines=4)
     
 sound = gr.Dropdown(
-        choices=["Nature Sounds", "Rain Sounds", "Ocean Waves", "Cat Purring", "Violin Music"],
+        choices=["None", "Nature Sounds", "Rain Sounds", "Ocean Waves", "Cat Purring", "Violin Music"],
         label="Play a calming sound?"
+        elem_id="sound-dropdown"
     )
     def wrapper(user_input, sound_choice):
         response = process_message(user_input)
