@@ -22,6 +22,10 @@
  [**🌿 Calmind**](https://calmind.onrender.com/)
 ---
 
+## 🚀 **Video Demo**
+
+---
+
 ## 📦 **How to Run**
 
 #### 1.Clone the repo:
