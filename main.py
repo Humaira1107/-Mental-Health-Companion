@@ -188,15 +188,15 @@ with gr.Blocks(css=custom_css) as demo:
     out = gr.Textbox(label="AI Companion Response", lines=4)
     
 sound = gr.Dropdown(
-        choices=["None", "Nature Sounds", "Rain Sounds", "Ocean Waves", "Cat Purring", "Violin Music"],
-        label="Play a calming sound?",
-        elem_id="sound-dropdown"
-    )
+    choices=["None", "Nature Sounds", "Rain Sounds", "Ocean Waves", "Cat Purring", "Violin Music"],
+    label="Play a calming sound?",
+    elem_id="sound-dropdown"
+)
 
- audio_component = gr.Audio(label="Calming Sound", autoplay=True)
- btn = gr.Button("Send")
-                 
-    def wrapper(user_input, sound_choice):
+audio_component = gr.Audio(label="Calming Sound", autoplay=True)
+btn = gr.Button("Send")
+
+def wrapper(user_input, sound_choice):
     response = process_message(user_input)
     if sound_choice != "None":
         sound_file = {
@@ -209,7 +209,8 @@ sound = gr.Dropdown(
         audio_component.value = sound_file
     return response
 
-    btn.click(fn=wrapper, inputs=[inp, sound], outputs=out)
+btn.click(fn=wrapper, inputs=[inp, sound], outputs=out)
 
 demo.launch(server_name="0.0.0.0", server_port=8080)
+
 
