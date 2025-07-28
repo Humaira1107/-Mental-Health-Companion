@@ -192,6 +192,10 @@ sound = gr.Dropdown(
         label="Play a calming sound?",
         elem_id="sound-dropdown"
     )
+
+ audio_component = gr.Audio(label="Calming Sound", autoplay=True)
+ btn = gr.Button("Send")
+                 
     def wrapper(user_input, sound_choice):
     response = process_message(user_input)
     if sound_choice != "None":
@@ -204,9 +208,6 @@ sound = gr.Dropdown(
         }.get(sound_choice)
         audio_component.value = sound_file
     return response
-
-    btn = gr.Button("Send")
-    audio_component = gr.Audio(label="Calming Sound", autoplay=True)
 
     btn.click(fn=wrapper, inputs=[inp, sound], outputs=out)
 
