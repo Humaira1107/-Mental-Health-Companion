@@ -5,7 +5,7 @@
 
 ---
 
-## 🌸☘️ **Features**
+## ✨🪻 **Features**
 
 - 🧠 **Emotion-aware support with friendly responses**
 - 🌈 **Mood-based interface with emoji feedback**  
