@@ -184,33 +184,30 @@ with gr.Blocks(css=custom_css) as demo:
     gr.Markdown("## 🌿 Calmind — Your serene AI sanctuary for emotional clarity & self-love.")
 
     inp = gr.Textbox(label="How are you feeling today?")
-    
     out = gr.Textbox(label="AI Companion Response", lines=4)
-    
-sound = gr.Dropdown(
-    choices=["None", "Nature Sounds", "Rain Sounds", "Ocean Waves", "Cat Purring", "Violin Music"],
-    label="Play a calming sound?",
-    elem_id="sound-dropdown"
-)
 
-audio_component = gr.Audio(label="Calming Sound", autoplay=True)
-btn = gr.Button("Send")
+    sound = gr.Dropdown(
+        choices=["None", "Nature Sounds", "Rain Sounds", "Ocean Waves", "Cat Purring", "Violin Music"],
+        label="Play a calming sound?",
+        elem_id="sound-dropdown"
+    )
 
-def wrapper(user_input, sound_choice):
-    response = process_message(user_input)
-    if sound_choice != "None":
-        sound_file = {
-            "Rain Sounds": "static/rain.mp3",
-            "Ocean Waves": "static/waves.mp3",
-            "Cat Purring": "static/cat.mp3",
-            "Violin Music": "static/violin.mp3",
-            "Nature Sounds": "static/nature.mp3"
-        }.get(sound_choice)
-        audio_component.value = sound_file
-    return response
+    audio_component = gr.Audio(label="Calming Sound", autoplay=True)
+    btn = gr.Button("Send")
 
-btn.click(fn=wrapper, inputs=[inp, sound], outputs=out)
+    def wrapper(user_input, sound_choice):
+        response = process_message(user_input)
+        if sound_choice != "None":
+            sound_file = {
+                "Rain Sounds": "static/rain.mp3",
+                "Ocean Waves": "static/waves.mp3",
+                "Cat Purring": "static/cat.mp3",
+                "Violin Music": "static/violin.mp3",
+                "Nature Sounds": "static/nature.mp3"
+            }.get(sound_choice)
+            return response, sound_file
+        return response, None
+
+    btn.click(fn=wrapper, inputs=[inp, sound], outputs=[out, audio_component])
 
 demo.launch(server_name="0.0.0.0", server_port=8080)
-
-
