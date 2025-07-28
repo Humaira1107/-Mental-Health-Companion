@@ -189,7 +189,7 @@ with gr.Blocks(css=custom_css) as demo:
     
 sound = gr.Dropdown(
         choices=["None", "Nature Sounds", "Rain Sounds", "Ocean Waves", "Cat Purring", "Violin Music"],
-        label="Play a calming sound?"
+        label="Play a calming sound?",
         elem_id="sound-dropdown"
     )
     def wrapper(user_input, sound_choice):
