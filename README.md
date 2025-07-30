@@ -25,6 +25,9 @@
 
 ## 🚀 **Video Demo**
 
+[![✨](https://img.youtube.com/vi/DYBv0PojKOA/0.jpg)](https://www.youtube.com/watch?v=DYBv0PojKOA)
+
+A short preview of Calmind — your gentle AI companion.
 ---
 
 ## 📦 **How to Run**
